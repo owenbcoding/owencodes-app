@@ -1,13 +1,30 @@
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 { 
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5vw;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.3rem;
+  color: #03dac6;
+}
+
+p { 
+  color: #03dac6;
+  font-size: 2vw;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.3rem;
+}
+
+a { 
+  margin: 15px;
+  color: #03dac6;
+  font-size: 2vw;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.3rem;
 }

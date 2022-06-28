@@ -1,8 +1,9 @@
 import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+import Home from "./Home";
 import particlesOptions from "./particles.json";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Particles options={particlesOptions} init={particlesInit} />
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo"/> */}
-        <p>Owencodes Protfolio</p>
+        <h1>Owencodes</h1>
         <p>Full Stack Developer and Web3 Enthusiast</p>
         <div>
           <a
@@ -36,6 +37,7 @@ function App() {
           </a>
         </div>
       </header>
+      <Home />
     </div>
   );
 }
