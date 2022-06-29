@@ -35,7 +35,7 @@ function App() {
           >
             Linked In
           </a>
-          <p>Under Development Stay Tuned!</p>
+          <p>Site Under Development Stay Tuned!</p>
         </div>
       </header>
       <Home />
