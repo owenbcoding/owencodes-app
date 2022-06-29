@@ -3,6 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 // import logo from "./logo.svg";
 import "./App.css";
+import Navbar from "./Navbar";
 import Home from "./Home";
 import particlesOptions from "./particles.json";
 
@@ -12,12 +13,13 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App overflow-hidden h-full">
       <Particles options={particlesOptions} init={particlesInit} />
+      <Navbar />
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo"/> */}
         <h1>Owencodes</h1>
-        <p>Full Stack Developer and Web3 Enthusiast</p>
+        <p className="text-4xl drop-shadow-2xl text-teal-500">Full Stack Developer & Web3 Enthusiast</p>
         <div>
           <a
             className="App-link"
@@ -25,7 +27,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            My Github
+            Github
           </a>
           <a
             className="App-link"
@@ -33,16 +35,16 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Linked In
+           - LinkedIn
           </a>
-          <p>Site Under Development Stay Tuned!</p>
-          <p>Hosted on
-            <a
+          <p className="text-4xl drop-shadow-2xl text-teal-500">Under Development Stay Tuned!</p>
+          {/* <p className="text-4xl drop-shadow-2xl text-teal-500">Hosted on
+            <a 
             className="App-link"
             href="https://vercel.com/dashboard"
             target="_blank"
             rel="noopener noreferrer"
-          >Varcel</a></p>
+          >- Vercel</a></p> */}
         </div>
       </header>
       <Home />
