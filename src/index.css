@@ -6,10 +6,10 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: monospace;
 }
 
 h1 { 
-  font-family: "Josefin Sans", sans-serif;
   font-size: 5vw;
   margin: 0;
   padding-bottom: 0.5rem;
