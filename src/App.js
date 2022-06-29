@@ -30,7 +30,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            - Twitch
+            Twitch
           </a>
           <a
             className="App-link"
@@ -38,15 +38,16 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            - Github
+            Github
           </a>
+          
           <a
             className="App-link"
             href="https://www.linkedin.com/in/eoghan-byrne-97221518a/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            - YouTube
+            YouTube
           </a>
           <a
             className="App-link"
@@ -54,7 +55,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            - LinkedIn
+            LinkedIn
           </a>
           <p className="text-4xl drop-shadow-2xl text-teal-500">
             Under Development Stay Tuned!
