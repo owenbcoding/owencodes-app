@@ -36,6 +36,13 @@ function App() {
             Linked In
           </a>
           <p>Site Under Development Stay Tuned!</p>
+          <p>Hosted on
+            <a
+            className="App-link"
+            href="https://vercel.com/dashboard"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Varcel</a></p>
         </div>
       </header>
       <Home />
