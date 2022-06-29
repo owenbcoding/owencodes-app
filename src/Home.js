@@ -2,13 +2,10 @@
 function Home() {
 
   return (
-    <div className="Home container flex justify-around py-8 mx-auto mt-48 bg-[#1e1f26]">
-       <div className="nav-container flex space-x-8 font-medium text-teal-500">
-            <p className="text-4xl">React</p>
-            <p className="text-4xl">TailwindCSS</p>
-            <p className="text-4xl">GraphQL</p>
-            <p className="text-4xl">ThreeJS</p>
-        </div>
+    <div className="Home absolute bottom-0 flex justify-center py-8 mx-auto mt-40 bg-[#1e1f26] w-full">
+            <p className="text-4xl text-teal-500 font-medium mx-10">React</p>
+            <p className="text-4xl text-teal-500 font-medium mx-10">TailwindCSS</p>
+            <p className="text-4xl text-teal-500 font-medium mx-10">GraphQL</p>
     </div>
   );
 }
