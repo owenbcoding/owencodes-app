@@ -27,7 +27,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            - Github
+            Github
           </a>
           <a
             className="App-link"
