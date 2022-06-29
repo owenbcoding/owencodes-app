@@ -13,7 +13,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App overflow-hidden h-full">
       <Particles options={particlesOptions} init={particlesInit} />
       <Navbar />
       <header className="App-header">
