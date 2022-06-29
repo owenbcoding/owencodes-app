@@ -20,7 +20,7 @@ function App() {
         {/* <img src={logo} className="App-logo" alt="logo"/> */}
         <h1>Owencodes</h1>
         <p className="text-4xl drop-shadow-2xl text-teal-500">
-          Full Stack Developer & Web3 Enthusiast
+          Full Stack Developer, Web3 & Blockchain Enthusiast
         </p>
         <h2 className="drop-shadow-2xl text-teal-500 mt-20">My Socials</h2>
         <div>
