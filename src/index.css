@@ -15,7 +15,7 @@
   }
 
   h1 {
-    @apply font-bold text-8xl drop-shadow-2xl text-teal-500;
+    @apply font-bold text-6xl drop-shadow-2xl text-teal-500;
   }
   
   /* h1 { 
