@@ -3,47 +3,32 @@
 @tailwind utilities;
 
 @layer components {
+	#tsparticles {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		left: 0;
+		top: 0;
+		z-index: -1;
+	}
   * { 
     text-shadow: #a8a8a8 -1px 1px 11px;
   }
-  
-  body {
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: monospace;
-  }
-
-  h1 {
-    @apply font-bold text-6xl drop-shadow-2xl text-teal-500;
-  }
-  
-  /* h1 { 
-    font-size: 5vw;
-    margin: 0;
-    padding-bottom: 0.5rem;
-    letter-spacing: 0.3rem;
-    color: #03dac6;
-  } */
-  
-  /* p { 
-    color: #03dac6;
-    font-size: 2vw;
-    padding-bottom: 0.5rem;
-    letter-spacing: 0.3rem;
-  } */
-  
-  a { 
-    margin: 15px;
-    color: #03dac6;
-    padding-bottom: 0.5rem;
-    letter-spacing: 0.3rem;
-  }
-
-  a:hover { 
-    color: #031011;
-  }
 }
+
+
+/* .App-header {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+} */
+
 /* * { 
   text-shadow: #a8a8a8 -1px 1px 11px;
 }
