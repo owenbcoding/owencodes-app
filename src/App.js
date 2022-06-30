@@ -15,10 +15,11 @@ function App() {
 
   const [links, setLinks] = useState([
     { name: 'Twitch', href: 'https://www.twitch.tv/owencodes'},
+    { name: 'Twitter', href: 'https://twitter.com/eoghanb2'},
     { name: 'Github', href: 'https://github.com/owenbcoding'},
     { name: 'Youtube', href: 'https://www.youtube.com/channel/UCdSxkWueHp3D5lkm0YYomaw'},
     { name: 'Discord', href: 'https://discord.gg/XknredJKUJ'},
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/eoghan-byrne-97221518a/'},
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/eoghan-byrne-97221518a/'}
   ])
 
 	return (
