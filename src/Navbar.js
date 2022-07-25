@@ -1,10 +1,14 @@
 const Navbar = () => {
 	return (
-		<nav className='flex justify-around py-4 mx-auto bg-[#1e1f26]'>
-			<div>
-				<h3 class='flex text-4xl font-medium text-teal-500 hover:text-gray-500 sm:text-center'>
-					<a href='/'><img className="h-20 mr-20" src="logo.png"/></a>
-					<li className='list-none mt-5'><a href='/'>Owencodes</a></li>
+		<nav className='flex justify-evenly py-4 mx-auto bg-[#1e1f26]'>
+			<div className="flex">
+				<a href='/'>
+					<img className='h-20 mr-10' src='logo.png' />
+				</a>
+				<h3 class='text-4xl font-medium text-teal-500 hover:text-gray-500 sm:text-center'>
+					<li className='list-none mt-5'>
+						<a href='/'>Owencodes</a>
+					</li>
 				</h3>
 			</div>
 			<div class='flex space-x-8'>
