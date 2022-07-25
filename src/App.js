@@ -2,7 +2,6 @@ import React, {useCallback} from 'react'
 import Particles from 'react-tsparticles'
 import {loadFull} from 'tsparticles'
 import {useState} from 'react'
-// import logo from "./logo.svg";
 import Navbar from './Navbar'
 import Home from './Home'
 import NavLink from './NavLink'
