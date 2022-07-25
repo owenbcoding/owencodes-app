@@ -28,7 +28,7 @@ function App() {
 			<Navbar />
 			<header className='flex flex-col justify-center text-white text-x1'>
 				<h1 className='text-6xl mt-20 text-teal-500 text-'>Owencodes</h1>
-				<p className='text-4xl text-teal-500 mt-10'>Developer - Trader - Hacker</p>
+				<p className='text-4xl text-teal-500 mt-10'>Developer - Hacker - Trader</p>
 				<h2 className='text-3xl text-teal-500 mt-20'>My Socials</h2>
 				<div className='mt-10'>
 					{links.map((link, index) => (
