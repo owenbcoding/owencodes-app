@@ -35,7 +35,7 @@ function App() {
 							<NavLink name={link.name} href={link.href} />
 						</div>
 					))}
-					<p className='text-3xl drop-shadow-2xl text-teal-500 mt-20'>Under Development Stay Tuned!</p>
+					<p className='text-3xl drop-shadow-2xl text-teal-500 mt-20'>Under Development</p>
 				</div>
 			</header>
 			<Home />
