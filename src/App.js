@@ -28,14 +28,13 @@ function App() {
 			<header className='flex flex-col justify-center text-white text-x1'>
 				<h1 className='text-6xl mt-20 text-teal-500 text-'>Owencodes</h1>
 				<p className='text-4xl text-teal-500 mt-10'>Developer - Ethical Hacker - Trader</p>
-				<h2 className='text-3xl text-teal-500 mt-20'>My Socials</h2>
-				<div className='mt-10'>
+				<h2 className='text-4xl text-teal-500 mt-40'>My Socials</h2>
+				<div className=''>
 					{links.map((link, index) => (
 						<div className='inline-flex text-3xl' key={index}>
 							<NavLink name={link.name} href={link.href} />
 						</div>
 					))}
-					<p className='text-3xl drop-shadow-2xl text-teal-500 mt-20'>Under Development</p>
 				</div>
 			</header>
 			<Home />
