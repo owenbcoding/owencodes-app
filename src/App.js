@@ -2,7 +2,7 @@ import React, {useCallback} from 'react'
 import Particles from 'react-tsparticles'
 import {loadFull} from 'tsparticles'
 import {useState} from 'react'
-// import logo from "./logo.svg";
+import logo from "./logo.svg";
 import Navbar from './Navbar'
 import Home from './Home'
 import NavLink from './NavLink'
@@ -27,7 +27,6 @@ function App() {
 			<Particles options={particlesOptions} init={particlesInit} />
 			<Navbar />
 			<header className='flex flex-col justify-center text-white text-x1'>
-				{/* <img src={logo} className="App-logo" alt="logo"/> */}
 				<h1 className='text-6xl mt-20 text-teal-500 text-'>Owencodes</h1>
 				<p className='text-4xl text-teal-500 mt-10'>Developer - Trader - Hacker</p>
 				<h2 className='text-3xl text-teal-500 mt-20'>My Socials</h2>
