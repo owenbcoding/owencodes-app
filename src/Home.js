@@ -5,8 +5,10 @@ function Home() {
 					<a className='text-3xl text-teal-500 hover:text-gray-500 font-medium mx-10 cursor-pointer'>React</a>
 					<a className='text-3xl text-teal-500 hover:text-gray-500 font-medium mx-10 cursor-pointer'>TailwindCSS</a>
 					<a className='text-3xl text-teal-500 hover:text-gray-500 font-medium mx-10 cursor-pointer'>GraphQL</a>
+					<a className='text-3xl text-teal-500 hover:text-gray-500 font-medium mx-10 cursor-pointer'>Mongodb</a>
+					<a className='text-3xl text-teal-500 hover:text-gray-500 font-medium mx-10 cursor-pointer'>Vercel</a>
 				</div>
-        <p className="text-teal-500 font-medium mr-14">&copy; Owencodes 2022 | All Rights Reserved</p>
+        <p className="text-teal-500 font-medium mt-10">&copy; Owencodes 2022 | All Rights Reserved</p>
 		</div>
 	)
 }
