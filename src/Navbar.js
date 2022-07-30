@@ -1,6 +1,6 @@
 const Navbar = () => {
 	return (
-		<nav className='flex justify-evenly py-4 mx-auto bg-[#1e1f26]'>
+		<nav className='flex justify-around py-4 mx-auto bg-[#1e1f26]'>
 			<div className="flex">
 				<a href='/'>
 					<img className='h-20 mr-10' src='logo.png' />
