@@ -27,7 +27,7 @@ function App() {
 			<header className='flex flex-col justify-center text-white text-x1'>
 				<h1 className='text-6xl mt-20 text-cyan-600'>Owencodes</h1>
 				<p className='text-4xl mt-10 text-cyan-600'>Developer - Ethical Hacker - Trader</p>
-				<h2 className='text-4xl text-violet-500 mt-40'>My Socials</h2>
+				<h2 className='text-4xl text-cyan-600 mt-40'>My Socials</h2>
 				<div className=''>
 					{links.map((link, index) => (
 						<div className='inline-flex text-3xl' key={index}>
